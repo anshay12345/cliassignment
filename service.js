@@ -5,8 +5,8 @@ var uuid = require('uuid');
 
 let s3=new AWS.S3({
   region: 'us-east-1',
-  accessKeyId: 'AKIAYGSSV4YHBHV2JD3C',
-  secretAccessKey: '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'
+  accessKeyId: '',
+  secretAccessKey: ''
 })
 class UserService{
   createBucket(bucketobj){

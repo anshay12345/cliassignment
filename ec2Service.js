@@ -2,8 +2,8 @@ const AWS = require('aws-sdk');
 const { parse } = require("uuid");
 let ec2=new AWS.EC2({
         region: 'us-east-1',
-        accessKeyId: 'AKIAYGSSV4YHBHV2JD3C',
-        secretAccessKey: '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'
+        accessKeyId: '',
+        secretAccessKey: ''
       })
   
       
